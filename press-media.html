@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Press &amp; Media - Klaudia Pacewicz</title>
+<meta name="description" content="Press features and media appearances from Klaudia Pacewicz.">
+<link rel="icon" href="assets/images/favicon.png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="index.html" class="logo">Klaudia Pacewicz</a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="press-media.html" aria-current="page">Press &amp; Media</a></li>
+      </ul>
+    </nav>
+    <a href="contact.html" class="btn btn-outline header-cta">Contact Klaudia</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="wrap"><h1>Press &amp; Media</h1></div>
+  </section>
+
+  <section class="press-list">
+    <div class="wrap">
+
+      <article class="press-card">
+        <span class="wordmark-chip">AMP 2025</span>
+        <p class="press-headline"><strong>Speaker: &ldquo;Precision, Context, and Control &mdash; iFlow&rsquo;s New Tools for Oncology &amp; Variant Curation,&rdquo; Innovation Spotlight Stage</strong></p>
+        <a class="btn btn-outline" href="https://amp2025.eventscribe.net/agenda.asp?pfp=InnovationSpotlightStage" target="_blank" rel="noopener">Read</a>
+      </article>
+
+      <article class="press-card">
+        <span class="wordmark-chip">Prague.bio</span>
+        <p class="press-headline"><strong>Featured Guest Speaker to the Prague.bio Community</strong></p>
+        <a class="btn btn-outline" href="https://www.linkedin.com/posts/prague-bio_its-time-to-introduce-another-distinguished-activity-7108328586964602880-VRas" target="_blank" rel="noopener">Read</a>
+      </article>
+
+      <article class="press-card">
+        <span class="wordmark-chip">Technology Networks</span>
+        <p class="press-headline"><strong>OGT and Intelliseq Forge Partnership to Advance Clinical and Biological Insight from NGS Data</strong></p>
+        <a class="btn btn-outline" href="https://www.technologynetworks.com/genomics/product-news/ogt-and-intelliseq-forge-partnership-to-advance-clinical-and-biological-insight-from-ngs-data-379887" target="_blank" rel="noopener">Read</a>
+      </article>
+
+      <article class="press-card">
+        <span class="wordmark-chip">PR Newswire</span>
+        <p class="press-headline"><strong>Intelliseq Integrates Genomenon&rsquo;s Cancer Knowledgebase (CKB) into iFlow Platform to Advance Somatic Variant Interpretation</strong></p>
+        <a class="btn btn-outline" href="https://www.prnewswire.com/news-releases/intelliseq-integrates-genomenons-cancer-knowledgebase-ckb-into-iflow-platform-to-advance-somatic-variant-interpretation-302484461.html" target="_blank" rel="noopener">Read</a>
+      </article>
+
+      <article class="press-card">
+        <span class="wordmark-chip">Manifold</span>
+        <p class="press-headline"><strong>Manifold and Intelliseq Bring Genomic Interpretation into the Governed Environment for AI-Ready Research</strong></p>
+        <a class="btn btn-outline" href="https://www.manifold.ai/resources/manifold-and-intelliseq-bring-genomic-interpretation-into-the-governed-environment-to-unlock-precision-medicine-data-for-ai-ready-research" target="_blank" rel="noopener">Read</a>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <span class="logo footer-logo">Klaudia Pacewicz</span>
+      <p class="footer-tagline"><strong>Turning Genomic Complexity into Clinical Clarity.</strong></p>
+    </div>
+
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h5>Klaudia Pacewicz</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="press-media.html">Press &amp; Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Follow Klaudia</h5>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/klaudia-pacewicz-9b7002173/" target="_blank" rel="nofollow noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="copyright">&copy; 2026 Klaudia Pacewicz. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.main-nav');
+  toggle.addEventListener('click', () => {
+    const open = document.body.classList.toggle('nav-open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+
+  const header = document.querySelector('.site-header');
+  const onScroll = () => {
+    header.classList.toggle('scrolled', window.scrollY > 60);
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+</script>
+</body>
+</html>
